@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Честит 18-ти рожден ден, Victoria 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Victoria Turns 18! 💖</h1>
+        <p>Ki + Vi = Kivi 🥝</p>
+    </header>
+
+    <main>
+        <!-- Пожелания -->
+        <section id="wishes-section">
+            <h2>Изпрати пожелание 🎉</h2>
+            <form id="wish-form">
+                <input type="text" id="name" placeholder="Вашето име" required>
+                <textarea id="wish" placeholder="Пожелание за Victoria" required></textarea>
+                <button type="submit">Изпрати 💌</button>
+            </form>
+            <div id="wish-success"></div>
+            <ul id="wish-list"></ul>
+        </section>
+
+        <!-- Сърца -->
+        <section id="hearts-section">
+            <h2>Изпрати сърце 💖</h2>
+            <div id="heart-counter">Сърца: 0</div>
+            <button id="heart-btn">💖</button>
+        </section>
+
+        <!-- Wash my belly -->
+        <section id="wash-section">
+            <h2>Wash my belly 😎🫧</h2>
+            <button id="wash-btn">Click me!</button>
+        </section>
+    </main>
+
+    <canvas id="confetti"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/socket.io@4.7.1/dist/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

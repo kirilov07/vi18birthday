@@ -1,0 +1,107 @@
+/* --- General --- */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #ffe6f0; /* светло розово */
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+/* --- Header --- */
+header {
+  padding: 20px;
+  background: #fff0f5; /* бледо розово */
+  border-bottom: 2px solid #ffb6c1;
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: #c71585;
+}
+
+/* --- Main sections --- */
+main {
+  padding: 20px;
+}
+
+section {
+  background: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* --- Forms --- */
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+/* --- Buttons --- */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #ff69b4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #ff85c1;
+}
+
+/* --- Hearts --- */
+#heart-btn {
+  font-size: 2rem;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+#heart-counter {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* --- Wish list --- */
+#wish-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#wish-list li {
+  padding: 5px;
+  border-bottom: 1px solid #ffd1e8;
+  text-align: left;
+}
+
+/* --- Confetti canvas --- */
+#confetti {
+  position: fixed;
+  top:0; left:0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
